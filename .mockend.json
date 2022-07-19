@@ -12,6 +12,13 @@
     "sad": { "int": { "min": 0, "max": 100 } },
     "surprise": { "int": { "min": 0, "max": 100 } },
     "angry": { "int": { "min": 0, "max": 100 } },
-    "fear": { "int": { "min": 0, "max": 100 } }
+    "fear": { "int": { "min": 0, "max": 100 } },
+    "memberId": {
+        "string": [
+          "one",
+          "two",
+          "three"
+        ]
+      }
   }
 }
