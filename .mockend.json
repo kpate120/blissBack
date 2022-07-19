@@ -1,7 +1,7 @@
 {"Sentiment": {
-    "journalText": { "loremwords": {
-        "minLength": 5, "maxLength": 20
-    } },
+    "journalText": { 
+        "loremWords": {"minLength": 5, "maxLength": 20}
+    },
     "journalDate": {
         "dateTime": {
             "min": "2010-01-01T00:00:00Z",
