@@ -4,14 +4,21 @@
     },
     "journalDate": {
         "dateTime": {
-            "min": "2010-01-01",
-            "max": "2020-12-31"
+            "min": "2010-01-01T00:00:00Z",
+            "max": "2020-12-31T23:59:59Z"
         }
     },
     "happy": { "int": { "min": 0, "max": 100} },
     "sad": { "int": { "min": 0, "max": 100 } },
     "surprise": { "int": { "min": 0, "max": 100 } },
     "angry": { "int": { "min": 0, "max": 100 } },
-    "fear": { "int": { "min": 0, "max": 100 } }
+    "fear": { "int": { "min": 0, "max": 100 } },
+    "memberId": {
+        "string": [
+          "one",
+          "two",
+          "three"
+        ]
+      }
   }
 }
